@@ -15,11 +15,11 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",-1002298711889))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",-1002014882444))
 
-OWNER_ID = int(getenv("OWNER_ID", 5886080930))
+OWNER_ID = int(getenv("OWNER_ID", 7445883361))
 
-OWNER = int(getenv("OWNER", 5886080930))
+OWNER = int(getenv("OWNER", 7445883361))
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
@@ -27,14 +27,14 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY","HRKU-244ce902-f5e3-4c52-94d6-b5c4bb4ab
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/SONGSONG220/AnieXEricaMusic",
+    "https://github.com/istkharalam62/lauda-",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TENJIKU_BOT_SUPPORTER")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/TENJIKU_ARA")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/PURVI_SUPPORT")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+czQ48LDbT1cxMWQ1")
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "2a230af10e0a40638dc77c1febb47170")
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "7f92897a59464ddbbf00f06cd6bda7fc")
@@ -57,9 +57,9 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/edu8v2.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/edu8v2.jpg")
-PLAYLIST_IMG_URL = "https://files.catbox.moe/edu8v2.jpg"
+START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/7g7leu.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/0712fj.jpg")
+PLAYLIST_IMG_URL = "https://files.catbox.moe/jkxpl3.jpg"
 STATS_IMG_URL = getenv("STATS_IMG_URL", "https://files.catbox.moe/edu8v2.jpg")
 TELEGRAM_AUDIO_URL = "https://files.catbox.moe/edu8v2.jpg"
 TELEGRAM_VIDEO_URL = "https://files.catbox.moe/edu8v2.jpg"
